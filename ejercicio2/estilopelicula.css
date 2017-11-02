@@ -1,0 +1,146 @@
+body{
+	background-color: #fff0f8;
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+}
+body{
+	font-family: "Verdana";
+}
+header h1{
+	font-family: 'Anton', sans-serif;
+	color:  #414239;
+	font-size: 4em;
+	margin: 10px 0px;
+}
+h2{
+	font-family: 'Lobster', cursive;
+	color:  #9e0947;
+	font-size: 2,5em;
+}
+
+div{
+	border-style: dotted;
+	border-width: 1px;
+	border-color: #d7d8cb;
+
+}
+
+video{
+	width: 350px;
+	height: 200px;
+	visibility: hidden;
+	display: none;
+	visibility: visible;
+	display: block;
+}
+.sinopsis{
+	text-align: justify;
+	margin-right: 3em;
+	width: 500px;
+
+}
+
+h4{
+	font-size: 1em;
+	color: #ce105c;
+}
+
+
+
+li[famoso="principal"]{
+	font-weight: bold;
+}
+li[famoso="secundario"]{
+	font-style: italic;
+}
+ul{
+	list-style-image: url('https://goo.gl/6hPSSH');
+	margin-right: 3em;
+}
+img{
+	width: 200px;
+	margin-right: 3em;
+}
+
+img:hover{
+	opacity: 0.8;
+}
+table {
+	width: auto;
+
+}
+/*este media actualmente es para visualizarlo en pc*/
+/*media para ipad*/
+/*min : 786 max: 1024*/
+@media only screen and (max-width : 1600px){
+	/*colocarle por defecto el tamaño de las letras*/
+	[class*="pelicula"] {
+		width: 45% !important;
+		font-size: .5em;
+
+	}
+	header{
+	margin-left: 0%;
+	margin-right: 0%;
+	}
+	/*modificacion del titulo de la pagina (h1)*/
+	h1{
+		font-family: 'Anton', sans-serif;
+		
+		
+		
+
+		font-size: 2em;
+		text-align: center;
+		font-style: italic;
+		/*insertar color*/
+		background-color: #FFFFFF;
+		display: block;
+	}
+	/**/
+	section>div.pelicula{
+		display: inline-block;
+		/*border-style: none;*/
+	}
+
+
+	/*esconder algo*/
+	
+	.sinopsis,img,h4{
+		display: none;
+	}
+
+	h2{
+		font-size: 1.5em;
+		text-align: center;
+	}
+	li[famoso="principal"]{
+		font-weight: normal;
+	}
+	ul{
+		display: block;
+	}
+	ul:before {
+		
+		  content: "Reparto: ";
+		  font-weight: bold;
+	}
+	li{
+
+		list-style-image:  none;
+		font-style: italic;
+		text-align: left;
+		margin:auto;
+		display: inline-block;
+
+	}
+	/*por ahora a esconder el video*/
+	video::after{
+		
+		display: block;
+
+	}
+
+
+}

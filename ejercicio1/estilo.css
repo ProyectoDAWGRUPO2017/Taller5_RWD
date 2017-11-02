@@ -1,0 +1,98 @@
+body{
+	font-family: "Verdana";
+	margin: 10% 2% 80%;
+        background-color: #fff0f8;
+}
+h1#tittle{
+	text-align: center;
+}
+h2#centrar{
+	text-align: center;
+}
+h4#concepto{
+	padding-left: 10px;
+}
+
+div.cajas{
+	margin: 10pt auto;
+	border: 1pt;
+	width: 50%;
+	padding: 5px;
+	border-color: #cbccc1;
+	border-style: solid;
+	overflow: auto;
+	}
+
+span#fotoMel img{
+	margin-left: 10px;
+	margin-right: 10px;
+	
+	margin-bottom: 10px;
+	width:120px;
+	height:110px;
+	float:left;
+}
+
+span#espolf img {
+	margin-left: 10px;
+	margin-right: 10px;
+	
+	margin-bottom: 10px;
+	width:110px;
+	height:100px;
+	float:left;
+}
+
+span#colefo img {
+	margin-left: 10px;
+	margin-right: 10px;
+	
+	margin-bottom: 10px;
+	width:110px;
+	height:100px;
+	float:left;
+}
+
+
+
+div{
+	overflow: auto;
+}
+
+div#contenedor1{
+	border: 3pt;
+	border-color: #cbccc1;
+	border-bottom-style: solid;
+	margin-bottom: 1em;
+}
+
+p.fecha{
+	font-style: italic;
+	margin-top: 0em;
+
+}
+
+h3.institucion{
+	margin: 0em;
+}
+
+.habilidad{
+	width: 100px;
+	border-radius: 70px;
+	margin: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 120px;
+	background: #cecece;
+	font-weight: bold;
+	box-shadow: 2px 2px 7px grey;
+	float: left;
+	display: block;
+}
+
+.habilidad span{ 
+	color: blue;
+	border-radius: 70px;
+	background: #241872;
+	padding: 10px;
+}
