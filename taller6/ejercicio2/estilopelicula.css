@@ -80,6 +80,15 @@ table {
 		font-size: .5em;
 
 	}
+	table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
 	header{
 	margin-left: 0%;
 	margin-right: 0%;
@@ -136,10 +145,10 @@ table {
 
 	}
 	/*por ahora a esconder el video*/
-	video::after{
+	video{
 		
 		display: block;
-
+		
 	}
 
 

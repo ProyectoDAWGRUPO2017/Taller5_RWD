@@ -96,3 +96,54 @@ h3.institucion{
 	background: #241872;
 	padding: 10px;
 }
+/*inicio del media*/
+@media screen and (max-width: 400px) {
+	*{
+		font-size: 1em;
+	}
+		div.cajas{
+		display: block;
+		background-color: #d4e3fc;
+		width: auto;
+		max-width: 100%;
+		margin: 0.3em;
+		border-radius: .6em;
+
+	}
+
+	h1,h2#centrar,h3.institucion{
+		display: none;
+	}
+	h2{
+			text-align: center;
+	}
+	p.fecha{
+		font-weight: bold;
+	}
+	div.cajas>h4#concepto{
+		
+		font-weight: bold;
+		display: block;
+		margin:auto;
+	}
+	div#contenedor1{
+		border: none;
+	}
+	/*span img{
+		margin-left: auto;
+		max-width: 100%;
+	}*/
+	/*div#contenedor1 span img,p.fecha,div#contenedor2 span p.fecha{
+		display:none;
+		display: block;
+	}*/
+	div#contenedor1,div#contenedor2{
+		max-width: 40%;
+		display: inline-block;
+		font-size: .8em;
+		margin-left: auto;
+	}
+
+	
+
+}

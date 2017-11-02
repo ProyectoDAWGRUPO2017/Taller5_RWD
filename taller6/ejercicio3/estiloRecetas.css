@@ -137,7 +137,9 @@ a:visited{
 	p{
 		display: none;
 	}
-	
+	img{
+		display: none;
+	}
 	/*[class*="col-"] {
 		width: 100% !important;
 	}
