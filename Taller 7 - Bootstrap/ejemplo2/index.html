@@ -6,10 +6,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Sweet &amp; Coffee</title>
     <meta name="description" content="">
     <meta name="author" content="yolo">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <!--  <link rel="icon" href="../../favicon.ico">-->
-    <title>Sweet &amp; Coffee</title>
+   
     <!-- Bootstrap CSS -->
         <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -20,7 +22,6 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link href="css/estilo.css" rel="stylesheet">
     
   </head>
@@ -33,30 +34,33 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">Sweet &amp; Coffee</a>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <a class="nav-link" href="#">Nosotros <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Cafe</a>
+        <a class="nav-link" href="#">Cafe <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item active">
+       <li class="nav-item active">
         <a class="nav-link" href="#">Dulces</a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link disabled" href="#">Productos</a>
+       <li class="nav-item active">
+        <a class="nav-link" href="#">Productos</a>
       </li>
        <li class="nav-item active">
-        <a class="nav-link disabled" href="#">Compromiso</a>
+        <a class="nav-link" href="#">Compromiso</a>
       </li>
        <li class="nav-item active">
-        <a class="nav-link disabled" href="#">Universidad del cafe</a>
+        <a class="nav-link" href="#">Universidad del Cafe</a>
       </li>
+     
+    
     </ul>
+
   </div>
 </nav>
 
@@ -82,11 +86,11 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+          <img class="first-slide" src="img/productos/americano.jpg==" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Example headline.</h1>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+              
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
             </div>
           </div>
@@ -96,7 +100,7 @@
           <div class="container">
             <div class="carousel-caption">
               <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
             </div>
           </div>
@@ -106,7 +110,7 @@
           <div class="container">
             <div class="carousel-caption">
               <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
             </div>
           </div>
@@ -131,46 +135,82 @@
 
       <!-- Three columns of text below the carousel -->
       <div class="row">
+
         <div class="col-md-15 col-xs-3">
+
           <img class="img-circle" src="img/productos/americano.jpg" alt="Generic placeholder image" width="140" height="140">
+
           <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <button type="button" class="btn btn-primary">Mas Informacion</button>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-md-15 col-xs-3">
-          <img class="img-circle" src="img/productos/cafebombon.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <button type="button" class="btn btn-primary">Mas Informacion</button>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-md-15 col-xs-3">
-          <img class="img-circle" src="img/productos/espresso.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
+
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+
           <button type="button" class="btn btn-primary">Mas Informacion</button>
+
         </div><!-- /.col-lg-4 -->
+
+        <div class="col-md-15 col-xs-3">
+
+          <img class="img-circle" src="img/productos/cafebombon.jpg" alt="Generic placeholder image" width="140" height="140">
+
+          <h2>Heading</h2>
+
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+
+          <button type="button" class="btn btn-primary">Mas Informacion</button>
+
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-md-15 col-xs-3">
+
+          <img class="img-circle" src="img/productos/espresso.jpg" alt="Generic placeholder image" width="140" height="140">
+
+          <h2>Heading</h2>
+
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+
+          <button type="button" class="btn btn-primary">Mas Informacion</button>
+
+        </div><!-- /.col-lg-4 -->
+
+
 
 <div class="col-md-15 col-xs-3">
+
           <img class="img-circle" src="img/productos/capuccino.jpg" alt="Generic placeholder image" width="140" height="140">
+
           <h2>Heading</h2>
+
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+
          <button type="button" class="btn btn-primary">Mas Informacion</button>
+
         </div>
 
+
+
   <div class="col-md-15 col-xs-3">
+
           <img class="img-circle" src="img/productos/macchiato.jpg" alt="Generic placeholder image" width="140" height="140">
+
           <h2>Heading</h2>
+
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+
           <button type="button" class="btn btn-primary">Mas Informacion</button>
+
         </div><!--
+
+
+
+
 
 
 
       </div><!-- /.row -->
 
+
+
     </div><!-- /.container -->
-
-
 
 
     <!-- Bootstrap core JavaScript
