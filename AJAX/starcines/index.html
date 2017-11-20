@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Star Cines</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jumbotron-narrow.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Romanesco" rel="stylesheet">
+</head>
+
+<body>
+    <div id="contenedor-principal" class="container">
+        <div class="header clearfix">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+                    <li role="presentation" class="active"><a href="#">Películas</a></li>
+                    <li role="presentation"><a href="#">Promociones</a></li>
+                    <li role="presentation"><a href="#">Estrenos</a></li>
+                </ul>
+            </nav>
+            <h3 id="titulo" class="text-muted">Star Cines</h3>
+        </div>
+        <div class="jumbotron">
+            <h1>¡Cerca de ti!</h1>
+            <p class="lead"></p>
+        </div> 
+        <div class="row row-eq-height">
+            <div class="col-sm-6 col-md-4 equal">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <img id="thumb1" src="img/Express-Oriente.jpg" alt="la momia">
+                        <h3 class="text-center pelicula">Asesinato en el Orient Express</h3>
+                        <table id="info" class="table">
+                            <tr>
+                                <th scope="row">Director:</th>
+                                <td id="director">Kenneth Branagh</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Estreno:</th>
+                                <td id="estreno">12 Nov</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">G&eacute;nero:</th>
+                                <td id="genero">Suspenso</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Clasificaci&oacute;n:</th>
+                                <td id="clasificacion">+18</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                <button id= "wikipedia" type="button" class="btn btn-primary">Ver P&aacute;gina de Wikipedia</button>
+                                </td>
+                            </tr>
+                        </table>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col center-block">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uAk39coySj8" frameborder="0" gesture="media" allowfullscreen></iframe>   
+                <table class="table table-bordered table-hover">
+                  <thead>
+                    <tr class="header-peliculas">
+                      <th colspan="4" class="text-center">
+                        <p style="margin-bottom:0;">
+                          Horario para el 20 de noviembre del 2017
+                        </p>
+                      </th>
+                    </tr>
+                    <tr id="peliculainfohorarios" class="">
+                      <th>#</th>
+                      <th>Hora</th>
+                      <th>Dimensi&oacute;n</th>
+                      <th>Idioma</th>
+                    </tr>
+                  </thead>
+                  <tbody id="cuerpotabla-peliculas">
+                  </tbody>
+                </table>  
+                <table id="disponibilidad" class="table table-bordered table-hover table-hidden">
+                  <thead>
+                    <tr class="header-disponibilidad">
+                      <th colspan="4" class="text-center">
+                        <p style="margin-bottom:0;">
+                          Disponibilidad
+                        </p>
+                      </th>
+                    </tr>
+                    <tr class="">
+                      <th>Fila</th>
+                      <th>Puestos Disponibles</th>
+                    </tr>
+                  </thead>
+                  <tbody id="cuerpotabla-disponibilidad">
+                  </tbody>
+                </table>           
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+          <p id="footer-content" class="navbar-text text-justify"></p>
+        </div>    
+  </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/starcines.js"></script>
+</body>
+
+</html>

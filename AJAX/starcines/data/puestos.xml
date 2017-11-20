@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<disponibilidad>
+	<funcion>
+		<nombre>funcion1</nombre>
+		<filas>
+			<fila puestos="2">A</fila>
+			<fila puestos="4">C</fila>
+			<fila puestos="4">D</fila>
+			<fila puestos="1">E</fila>
+			<fila puestos="6">J</fila>
+		</filas>
+	</funcion> 
+	<funcion>
+		<nombre>funcion2</nombre>
+		<filas>
+			<fila puestos="1">F</fila>
+			<fila puestos="4">G</fila>
+			<fila puestos="7">J</fila>
+		</filas>
+	</funcion> 
+	<funcion>
+		<nombre>funcion3</nombre>
+		<filas>
+			<fila puestos="2">A</fila>
+			<fila puestos="2">B</fila>
+			<fila puestos="1">C</fila>
+			<fila puestos="4">D</fila>
+			<fila puestos="10">J</fila>
+		</filas>
+	</funcion> 
+</disponibilidad>
